@@ -27,7 +27,7 @@ echo "S2"; make_scene ${V}/s2.jpg 3 "Best Price"       "とうめし定食"     
 echo "S3"; make_scene ${V}/s3.jpg 3 "Signature"        "煮込みハンバーグ定食" "1,100円"            ${V}/c3.mp4
 echo "S4"; make_scene ${V}/s4.jpg 3 "Classic"          "親子丼"               "1,100円"            ${V}/c4.mp4
 echo "S5"; make_scene ${V}/s5.jpg 3 "Specialty"        "おでん定食"           "1,200円"            ${V}/c5.mp4
-echo "S6"; make_scene ${V}/s6.jpg 3 "Spring Only"      "麻婆豆腐／チーズ麻婆" "春限定"              ${V}/c6.mp4
+echo "S6"; make_scene ${V}/s6.jpg 3 "Limited Time"     "麻婆豆腐／チーズ麻婆" "期間限定"              ${V}/c6.mp4
 echo "SF"; make_final 4 ${V}/c7.mp4
 
 cat > ${V}/concat.txt <<EOF
